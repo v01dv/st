@@ -5,12 +5,11 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-// static char *font = "JetBrainsMono Nerd Font Mono:pixelsize=13:antialias=true:autohint=true";
-// static char *font = "Comic Code Demo:pixelsize=14:antialias=true:autohint=true";
-static char *font = "monospace:size=10:antialias=true:autohint=true";
+static char *font = "monospace:pixelsize=13:antialias=true:autohint=true";
 /* Spare fonts */
 static char *font2[] = {
-  "NotoColorEmoji:pixelsize=13:antialias=true:autohint=true"
+  "Symbols Nerd Font Mono:pixelsize=11:antialias=true:autohint=true",
+  "NotoColorEmoji:pixelsize=11:antialias=true:autohint=true"
 };
 
 static int borderpx = 2;
@@ -175,7 +174,7 @@ static unsigned int rows = 24;
 /*
  * Default colour and shape of the mouse cursor
  */
-static unsigned int mouseshape = XC_xterm;
+static unsigned int mouseshape = XC_left_ptr;
 static unsigned int mousefg = 7;
 static unsigned int mousebg = 0;
 
